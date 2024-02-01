@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: OLDFloor3FloorMaterial
+  m_Shader: {fileID: -6465566751694194690, guid: c4aa0b34b59b9444093a28e67496e22f,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - ADDITIONAL_LIGHT_CALCULATE_SHADOWS
+  m_InvalidKeywords:
+  - _MASK_PROJECTION_AXIS_XY
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Texture:
+        m_Texture: {fileID: 2800000, guid: 654da9238b216514c86a0a9efd638263, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - ADDITIONAL_LIGHT_CALCULATE_SHADOWS: 1
+    - _Add_Highlight: 1
+    - _Add_Mask: 1
+    - _Add_Texture: 0
+    - _Highlight_Value: 23
+    - _Inverted_Outlines: 1
+    - _Mask_Outline_Amount: 0.25
+    - _Mask_Outline_Steps: 0.29
+    - _Mask_Scale: 20
+    - _Mask_Value: 0.49
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _Smoothness: 0.4
+    - _Specular_Dots_Amount: 150
+    - _Triplanar: 1
+    m_Colors:
+    - _Ambient_Shadow_Colour: {r: 0.3207547, g: 0.2855776, b: 0.26447132, a: 1}
+    - _Highlight_Colour: {r: 1.3025908, g: 0.85675424, b: 0.59476787, a: 1}
+    - _Mask_Colour: {r: 0.03773582, g: 0.033008162, b: 0.031826247, a: 0.09803922}
+    - _Mask_Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _Mask_Outline_Colour: {r: 0.2830189, g: 0.26464936, b: 0.26005697, a: 0.18431373}
+    - _Object_Colour: {r: 0.4433962, g: 0.33212885, b: 0.33212885, a: 1}
+    - _Shadow_Texture_Tint: {r: 0.003921569, g: 0.003921569, b: 0.003921569, a: 1}
+    - _Specular: {r: 0.007843138, g: 0.007843138, b: 0.007843138, a: 1}
+    - _Texture_Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _Texture_Tiling: {r: 1, g: 1, b: 0, a: 0}
+    - _Triplanar_Texture_Rotation: {r: 90, g: 90, b: 0, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &3817913832507450361
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 6

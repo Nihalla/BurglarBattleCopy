@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-589323132825146214
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 6
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MainMenuWall
+  m_Shader: {fileID: -6465566751694194690, guid: c4aa0b34b59b9444093a28e67496e22f,
+    type: 3}
+  m_Parent: {fileID: 2100000, guid: 21759fba6adc12047a2c93a065d16bea, type: 2}
+  m_ModifiedSerializedProperties: 4
+  m_ValidKeywords:
+  - ADDITIONAL_LIGHT_CALCULATE_SHADOWS
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - ADDITIONAL_LIGHT_CALCULATE_SHADOWS: 1
+    - _Inverted_Outlines: 0
+    - _Mask_Scale: 0
+    - _Mask_Value: 0.43
+    - _Smoothness: 0.5
+    m_Colors:
+    - _Ambient_Shadow_Colour: {r: 0.26171234, g: 0.26234385, b: 0.2735849, a: 1}
+    - _BaseColor: {r: 0.6037736, g: 0.6037736, b: 0.6037736, a: 1}
+    - _Color: {r: 0.6037736, g: 0.6037736, b: 0.6037736, a: 1}
+    - _Highlight_Colour: {r: 0, g: 0, b: 0, a: 0}
+    - _Mask_Colour: {r: 0, g: 0, b: 0, a: 0.12941177}
+    - _Mask_Outline_Colour: {r: 0, g: 0, b: 0, a: 1}
+    - _Object_Colour: {r: 0, g: 0, b: 0, a: 1}
+    - _Shadow_Texture_Tint: {r: 0.13207549, g: 0.13207549, b: 0.13207549, a: 1}
+    - _Texture_Tiling: {r: 0.5, g: 0.5, b: 0, a: 0}
+  m_BuildTextureStacks: []
